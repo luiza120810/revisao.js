@@ -6,8 +6,20 @@
 //console.log(glossQuant);
 
 
-let preco;
-console.log(preco);
-console.log(typeof preco);
+//let preco;
+//console.log(preco);
+//console.log(typeof preco);
 
 
+let texto = "mundo js";
+let numero = 42;
+let ligado = true;
+let vazio = null;
+let indefirido;
+let numeroGrande = 100n;
+console.log(typeof texto);
+console.log(typeof numero);
+console.log(typeof ligado);
+console.log(typeof vazio);
+console.log(typeof indefirido);
+console.log(typeof numeroGrande);
