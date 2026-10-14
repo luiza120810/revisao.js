@@ -25,10 +25,13 @@
 //console.log(typeof numeroGrande);
 
 
-let soma = 2 + 2
-let subtracao = 8 - 2
-let multiplicacao = 3 * 3
-let divisao = 10 / 5
-let resto 10 % 5
-  console.log(`${soma} ${subtracao} ${multiplicaçao} ${divisao} ${resto}`);
-  
+//let soma = 2 + 2
+//let subtracao = 8 - 2
+//let multiplicacao = 3 * 3
+//let divisao = 10 / 5
+//let resto 10 % 5
+//  console.log(`${soma} ${subtracao} ${multiplicaçao} ${divisao} ${resto}`);
+
+
+console.log(10 == '10');
+console.log(10 === '10');
