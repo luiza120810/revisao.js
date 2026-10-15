@@ -37,5 +37,17 @@
 //console.log(10 === '10');
 
 
-const num = 25; const texto '25'
-const resultado = num == texto; console.log(resultado)
+//const num = 25; const texto '25'
+//const resultado = num == texto; console.log(resultado)
+
+
+const temCarteira = true
+const maiorDeIdade = false
+const podeConduzir = temCarteira && maiorDeIdade;
+console.log(podeConduzir);
+
+
+const temCarteira = true
+const maiorDeIdade = false 
+const satisfaUm = temCarteira || maiorDeIdade
+console.log(satisfaUm)
