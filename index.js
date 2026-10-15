@@ -41,13 +41,27 @@
 //const resultado = num == texto; console.log(resultado)
 
 
-const temCarteira = true
-const maiorDeIdade = false
-const podeConduzir = temCarteira && maiorDeIdade;
-console.log(podeConduzir);
+//const temCarteira = true
+//const maiorDeIdade = false
+//const podeConduzir = temCarteira && maiorDeIdade;
+//console.log(podeConduzir);
 
 
-const temCarteira = true
-const maiorDeIdade = false 
-const satisfaUm = temCarteira || maiorDeIdade
-console.log(satisfaUm)
+//const temCarteira = true
+//const maiorDeIdade = false 
+//const satisfaUm = temCarteira || maiorDeIdade
+//console.log(satisfaUm)
+
+
+//let ativo = true
+//let inativo = !ativo
+//console.log("Ativo:" , ativo)
+//console.log("Inativo ")
+
+
+//let resultado = '5' + 3;
+//console.log(resultado); // 53
+
+
+//let numero = number('10');
+//console.log(numero + 5); // 15
