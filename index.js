@@ -78,7 +78,15 @@
 //console.log(total);
 
 
-console.log(Boolean(0));
-console.log(Boolean(""));
-console.log(Boolean(100));
-console.log(Boolean("gato"));
+//console.log(Boolean(0));
+//console.log(Boolean(""));
+//console.log(Boolean(100));
+//console.log(Boolean("gato"));
+
+
+let saldo = 100
+saldo += 50
+saldo -= 20
+saldo *= 2
+saldo /= 4
+console.log("saldo final:", saldo)
