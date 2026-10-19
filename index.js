@@ -65,3 +65,10 @@
 
 //let numero = number('10');
 //console.log(numero + 5); // 15
+
+
+//const resultado = '10' - 2;
+//console.log(resultado);
+//console.log(typeof resultado);
+
+
