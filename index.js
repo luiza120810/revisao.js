@@ -72,3 +72,13 @@
 //console.log(typeof resultado);
 
 
+//const textoDecimal = '123.45'
+//const numeroConvertido = Number(textoDecimal)
+//const total = numeroConvertido + 10
+//console.log(total);
+
+
+console.log(Boolean(0));
+console.log(Boolean(""));
+console.log(Boolean(100));
+console.log(Boolean("gato"));
