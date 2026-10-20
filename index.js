@@ -92,6 +92,19 @@
 //console.log("saldo final:", saldo)
 
 
-const idade = 20
-const mensagem = idade > 18 ? 'pode' : 'nao'
-console.log(mensagem)
+//const idade = 20
+//const mensagem = idade > 18 ? 'pode' : 'nao'
+//console.log(mensagem)
+
+
+const color = 'vermelho';
+switch (color) {
+    case 'vermelho' :
+        console.log('pare')
+        break;
+        case 'amarelo' :
+            console.log('atençao');
+            case 'verde' :
+                console.log('siga');
+                break;
+}
