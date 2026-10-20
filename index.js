@@ -131,9 +131,26 @@
 //console.log("decolar!");
 
 
-const nums = [1, 2, 3, 4];
-const triplo = nums.map(n => n * 3);
-console.log(triplo);
-const idades = [12, 17, 18, 22, 15, 30];
-const idades = idades.filter(i => i > 18);
-console.log(maiores);
+//const nums = [1, 2, 3, 4];
+//const triplo = nums.map(n => n * 3);
+//console.log(triplo);
+//const idades = [12, 17, 18, 22, 15, 30];
+//const idades = idades.filter(i => i > 18);
+//console.log(maiores);
+
+
+const comidas = [
+  'banana', 'maçã', 'uva', 'limão',
+  'abóbora', 'beterraba', 'rabanete'
+];
+
+const frutas = comidas.map(comida =>
+  ['banana', 'maçã', 'uva', 'limão'].includes(comida) ? comida : null
+).filter(comida => comida !== null);
+
+const legumes = comidas.map(comida =>
+  ['abóbora', 'beterraba', 'rabanete'].includes(comida) ? comida : null
+).filter(comida => comida !== null);
+
+console.log("Frutas:", frutas);
+console.log("Legumes:", legumes);
