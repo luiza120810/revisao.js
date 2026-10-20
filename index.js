@@ -110,7 +110,14 @@
 //}
 
 
-const frutas = ['uva', 'pera', 'maça'];
-for (const fruta of frutas) {
-    console.log("frutas da vez:", fruta);
+//const frutas = ['uva', 'pera', 'maça'];
+//for (const fruta of frutas) {
+//    console.log("frutas da vez:", fruta);
+//}
+
+
+let j = 0;
+while (j < 3) {
+    console.log("valor de j:", j);
+    j--;
 }
