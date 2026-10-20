@@ -84,9 +84,14 @@
 //console.log(Boolean("gato"));
 
 
-let saldo = 100
-saldo += 50
-saldo -= 20
-saldo *= 2
-saldo /= 4
-console.log("saldo final:", saldo)
+//let saldo = 100
+//saldo += 50
+//saldo -= 20
+//saldo *= 2
+//saldo /= 4
+//console.log("saldo final:", saldo)
+
+
+const idade = 20
+const mensagem = idade > 18 ? 'pode' : 'nao'
+console.log(mensagem)
