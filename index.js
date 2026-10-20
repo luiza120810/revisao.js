@@ -97,14 +97,20 @@
 //console.log(mensagem)
 
 
-const color = 'vermelho';
-switch (color) {
-    case 'vermelho' :
-        console.log('pare')
-        break;
-        case 'amarelo' :
-            console.log('atençao');
-            case 'verde' :
-                console.log('siga');
-                break;
+//const color = 'vermelho';
+//switch (color) {
+//    case 'vermelho' :
+//        console.log('pare')
+//        break;
+//        case 'amarelo' :
+//            console.log('atençao');
+//            case 'verde' :
+//                console.log('siga');
+//                break;
+//}
+
+
+const frutas = ['uva', 'pera', 'maça'];
+for (const fruta of frutas) {
+    console.log("frutas da vez:", fruta);
 }
