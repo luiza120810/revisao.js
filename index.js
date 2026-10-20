@@ -116,8 +116,16 @@
 //}
 
 
-let j = 0;
-while (j < 3) {
-    console.log("valor de j:", j);
-    j--;
+//let j = 0;
+//while (j < 3) {
+//    console.log("valor de j:", j);
+//    j++;
+//}
+
+
+let cotador = 10 
+while (contador > 0) {
+    console.log("contagem: ", contador);
+    cotador -- ; 
 }
+console.log("decolar!");
