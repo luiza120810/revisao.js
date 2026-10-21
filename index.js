@@ -139,18 +139,96 @@
 //console.log(maiores);
 
 
-const comidas = [
-  'banana', 'maçã', 'uva', 'limão',
-  'abóbora', 'beterraba', 'rabanete'
-];
+//const comidas = [
+//  'banana', 'maçã', 'uva', 'limão',
+//  'abóbora', 'beterraba', 'rabanete'
+//];
+//const frutas = comidas.map(comida =>
+//  ['banana', 'maçã', 'uva', 'limão'].includes(comida) ? comida : null
+//).filter(comida => comida !== null);
+//const legumes = comidas.map(comida =>
+//  ['abóbora', 'beterraba', 'rabanete'].includes(comida) ? comida : null
+//).filter(comida => comida !== null);
+//console.log("Frutas:", frutas);
+//console.log("Legumes:", legumes);
 
-const frutas = comidas.map(comida =>
-  ['banana', 'maçã', 'uva', 'limão'].includes(comida) ? comida : null
-).filter(comida => comida !== null);
 
-const legumes = comidas.map(comida =>
-  ['abóbora', 'beterraba', 'rabanete'].includes(comida) ? comida : null
-).filter(comida => comida !== null);
+//const idades = [12, 17, 18, 22, 15, 30];
+//let filter = idades.filter((idade) => idade > 20);
+//let map = idades.map ((idade) => idade * 20);
+//console.log(filter);
+//console.log(map);
 
-console.log("Frutas:", frutas);
-console.log("Legumes:", legumes);
+
+//const objeto = {
+  //nome: "luiza",
+  //idade: 16,
+//};
+//const { idade } = objeto;
+//console.log(idade);
+
+
+
+const mesadas = [5, 10, 15];
+const mesadasDobradas = mesadas.map(mesada => mesada * 2);
+console.log("exercício 1:", mesadasDobradas);
+
+
+const pontos = [3, 7, 10];
+const pontosTurbinados = pontos.map(ponto => ponto + 5);
+console.log("exercício 2:", pontosTurbinados);
+
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const pares = numeros.filter(numero => numero % 2 === 0);
+console.log("exercício 3:", pares);
+
+
+const precos = [15, 30, 8, 22, 12];
+const precosBaratos = precos.filter(preco => preco <= 20);
+console.log("exercício 4:", precosBaratos);
+
+
+const moedas = [1, 0.5, 0.25, 1, 0.25];
+const totalMoedas = moedas.reduce((total, moeda) => total + moeda, 0);
+console.log("exercício 5:", totalMoedas);
+
+
+const fases = [120, 80, 200, 50];
+const totalPontos = fases.reduce((total, pontos) => total + pontos, 0);
+console.log("exercício 6:", totalPontos);
+
+
+const colegas = ["qna", "pedro", "maria", "lucas", "joão"];
+colegas.forEach(nome => console.log(`presente, ${nome}!`));
+
+
+const figurinhas = ["leão", "tigre", "urso"];
+figurinhas.forEach(animal => console.log(`tenho a figurinha do ${animal}`));
+
+
+const numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const imparesAoQuadrado = numeros2
+    .filter(numero => numero % 2 !== 0)
+    .map(numero => numero * numero);
+console.log("exercício 9:", imparesAoQuadrado);
+
+
+const lista = [1, 2, 3, 4, 5, 6];
+const resultadoCombo = lista
+    .filter(numero => numero % 2 === 0)
+    .map(numero => numero * 2)
+    .reduce((total, numero) => total + numero, 0);
+console.log("exercício 10:", resultadoCombo);
+
+
+const mochila1 = ["lápis", "caderno"];
+const mochila2 = ["borracha", "régua"];
+const mochilaCompleta = [...mochila1, ...mochila2];
+console.log("exercício 11:", mochilaCompleta);
+console.log("quantidade de itens:", mochilaCompleta.length);
+
+
+const heroi = { nome: "raio azul", poder: "velocidade", nivel: 7 };
+const { nome, poder } = heroi;
+console.log(`exercício 12: ${nome} tem o poder de ${poder}`);
