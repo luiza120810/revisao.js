@@ -169,66 +169,82 @@
 
 
 
-const mesadas = [5, 10, 15];
-const mesadasDobradas = mesadas.map(mesada => mesada * 2);
-console.log("exercício 1:", mesadasDobradas);
+//const mesadas = [5, 10, 15];
+//const mesadasDobradas = mesadas.map(mesada => mesada * 2);
+//console.log("exercício 1:", mesadasDobradas);
+//const pontos = [3, 7, 10];
+//const pontosTurbinados = pontos.map(ponto => ponto + 5);
+//console.log("exercício 2:", pontosTurbinados);
+//const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+//const pares = numeros.filter(numero => numero % 2 === 0);
+//console.log("exercício 3:", pares);
+//const precos = [15, 30, 8, 22, 12];
+//const precosBaratos = precos.filter(preco => preco <= 20);
+//console.log("exercício 4:", precosBaratos);
+//const moedas = [1, 0.5, 0.25, 1, 0.25];
+//const totalMoedas = moedas.reduce((total, moeda) => total + moeda, 0);
+//console.log("exercício 5:", totalMoedas);
+//const fases = [120, 80, 200, 50];
+//const totalPontos = fases.reduce((total, pontos) => total + pontos, 0);
+//console.log("exercício 6:", totalPontos);
+//const colegas = ["qna", "pedro", "maria", "lucas", "joão"];
+//colegas.forEach(nome => console.log(`presente, ${nome}!`));
+//const figurinhas = ["leão", "tigre", "urso"];
+//figurinhas.forEach(animal => console.log(`tenho a figurinha do ${animal}`));
+//const numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//const imparesAoQuadrado = numeros2
+//    .filter(numero => numero % 2 !== 0)
+//    .map(numero => numero * numero);
+//console.log("exercício 9:", imparesAoQuadrado);
+//const lista = [1, 2, 3, 4, 5, 6];
+//const resultadoCombo = lista
+//    .filter(numero => numero % 2 === 0)
+//    .map(numero => numero * 2)
+//    .reduce((total, numero) => total + numero, 0);
+//console.log("exercício 10:", resultadoCombo);
+//const mochila1 = ["lápis", "caderno"];
+//const mochila2 = ["borracha", "régua"];
+//const mochilaCompleta = [...mochila1, ...mochila2];
+//console.log("exercício 11:", mochilaCompleta);
+//console.log("quantidade de itens:", mochilaCompleta.length);
+//const heroi = { nome: "raio azul", poder: "velocidade", nivel: 7 };
+//const { nome, poder } = heroi;
+//console.log(`exercício 12: ${nome} tem o poder de ${poder}`);
 
 
-const pontos = [3, 7, 10];
-const pontosTurbinados = pontos.map(ponto => ponto + 5);
-console.log("exercício 2:", pontosTurbinados);
+//const carrinho = [10, 20.5, 30];
+//const total = carrinho.reduce((acc, p) => acc + p, 0);
+//console.log(total);
+//const nomes = ['ana', 'carlos', 'joao'];
+//nomes.forEach(n => console.log('ola, ${n}!'));
 
 
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-const pares = numeros.filter(numero => numero % 2 === 0);
-console.log("exercício 3:", pares);
+//const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//const resultado = numeros.filter(n = n % 2 = 0).map(n = n * 5);
+//console.log(resultado);
 
 
-const precos = [15, 30, 8, 22, 12];
-const precosBaratos = precos.filter(preco => preco <= 20);
-console.log("exercício 4:", precosBaratos);
+//console. log(nome)
+//const a = [1, 2]
+//const b = [3, 4]
+//const c = [ ... a, ... b]
+//const user = { nome: 'Ana', idade: 30 }
+//const { nome, idade } = user
+//console.log(nome)
 
 
-const moedas = [1, 0.5, 0.25, 1, 0.25];
-const totalMoedas = moedas.reduce((total, moeda) => total + moeda, 0);
-console.log("exercício 5:", totalMoedas);
+const alunos = [
+    { nome: "luiza", nota: 8 },
+    { nome: "kauan", nota: 6 },
+    { nome: "miguel", nota: 9 },
+    { nome: "ana", nota: 5 },
+    { nome: "agenor", nota: 7 },
+    { nome: "carol", nota: 4 },
+    { nome: "nino", nota: 10 },
+    { nome: "helena", nota: 3 },
+    { nome: "mariano", nota: 6 },
+    { nome: "julia", nota: 5 }
+];
 
-
-const fases = [120, 80, 200, 50];
-const totalPontos = fases.reduce((total, pontos) => total + pontos, 0);
-console.log("exercício 6:", totalPontos);
-
-
-const colegas = ["qna", "pedro", "maria", "lucas", "joão"];
-colegas.forEach(nome => console.log(`presente, ${nome}!`));
-
-
-const figurinhas = ["leão", "tigre", "urso"];
-figurinhas.forEach(animal => console.log(`tenho a figurinha do ${animal}`));
-
-
-const numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const imparesAoQuadrado = numeros2
-    .filter(numero => numero % 2 !== 0)
-    .map(numero => numero * numero);
-console.log("exercício 9:", imparesAoQuadrado);
-
-
-const lista = [1, 2, 3, 4, 5, 6];
-const resultadoCombo = lista
-    .filter(numero => numero % 2 === 0)
-    .map(numero => numero * 2)
-    .reduce((total, numero) => total + numero, 0);
-console.log("exercício 10:", resultadoCombo);
-
-
-const mochila1 = ["lápis", "caderno"];
-const mochila2 = ["borracha", "régua"];
-const mochilaCompleta = [...mochila1, ...mochila2];
-console.log("exercício 11:", mochilaCompleta);
-console.log("quantidade de itens:", mochilaCompleta.length);
-
-
-const heroi = { nome: "raio azul", poder: "velocidade", nivel: 7 };
-const { nome, poder } = heroi;
-console.log(`exercício 12: ${nome} tem o poder de ${poder}`);
+const aprovados = alunos.filter(aluno => aluno.nota >= 7);
+console.log(aprovados);
